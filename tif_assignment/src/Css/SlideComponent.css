@@ -21,3 +21,24 @@
   line-height: 1.4rem;
   margin-top: -8px;
 }
+@media (min-width: 1000px) {
+  .slideBorder {
+    width: 381px;
+    height: 600px;
+    gap: 2rem;
+  }
+  .slideBorder > img {
+    width: 326px;
+    height: 258px;
+  }
+  .slideBorder > h2 {
+    font-size: 25px;
+    line-height: 1.4rem;
+    margin-top: -8px;
+  }
+  .slideBorder > p {
+    font-size: 16px;
+    line-height: 1.4rem;
+    margin-top: -8px;
+  }
+}

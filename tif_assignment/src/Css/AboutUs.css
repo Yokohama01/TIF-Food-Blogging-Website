@@ -1,5 +1,5 @@
 .aboutUs_div {
-  width: 375px;
+  width: 100%;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -24,4 +24,34 @@
 }
 .aboutUsDesc {
   font-size: 12px;
+}
+.aboutUsImg {
+  width: 384px;
+  height: 468px;
+  display: none;
+}
+
+@media (min-width: 940px) {
+  .aboutUs_div {
+    height: 653px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .aboutUs_div > div {
+    width: 447px;
+    height: 254px;
+  }
+  .aboutUsImg {
+    display: block;
+  }
+  .aboutUsTitle {
+    font-size: 35px;
+  }
+  .aboutUsDesc {
+    font-size: 15px;
+  }
+  .aboutUs_div > div {
+    align-items: flex-start;
+    text-align: left;
+  }
 }

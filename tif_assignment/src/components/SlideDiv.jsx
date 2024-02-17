@@ -9,11 +9,22 @@ function Slide() {
         <h1>Latest Articles</h1>
 
         <Swiper
-          className="hello"
+          className="swiperClass"
           spaceBetween={50}
           slidesPerView={1}
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
+          breakpoints={{
+            375: {
+              slidesPerView: 1,
+              spaceBetween: 50,
+            },
+
+            1000: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          }}
         >
           <SwiperSlide>
             <SlideComponent

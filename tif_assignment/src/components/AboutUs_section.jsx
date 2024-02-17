@@ -5,6 +5,11 @@ function AboutUs() {
   return (
     <>
       <div className="aboutUs_div">
+        <img
+          src="../../public/img/aboutUS1440.png"
+          alt="#"
+          className="aboutUsImg"
+        />
         <div>
           <h1 className="aboutUsTitle">About US</h1>
           <p className="aboutUsDesc">
@@ -13,7 +18,7 @@ function AboutUs() {
             vitae ipsam. Delectus ea odio qui cumque deserunt laboriosam porro
             aperiam facilis dolore.
           </p>
-          <Button title="Read More" />
+          <Button title="Read More" width="150px" height="60px" />
         </div>
       </div>
     </>
