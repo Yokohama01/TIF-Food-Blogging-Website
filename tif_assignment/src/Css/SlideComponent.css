@@ -1,0 +1,23 @@
+.slideBorder {
+  width: 271px;
+  height: 484px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.3rem;
+  border-radius: 2rem;
+}
+.slideBorder > h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0e2368;
+  font-weight: 700;
+  font-size: 20px;
+}
+.slideBorder > p {
+  font-size: 13px;
+  line-height: 1.4rem;
+  margin-top: -8px;
+}

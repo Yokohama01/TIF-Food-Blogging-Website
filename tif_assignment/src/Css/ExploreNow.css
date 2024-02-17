@@ -1,0 +1,41 @@
+.explore-div {
+  width: 375px;
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.explore-title {
+  width: 240px;
+  height: 130px;
+  color: #0e2368;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.explore-title > h1 {
+  font-family: "Source sans pro";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.explore-title > h1 > span {
+  color: #e23744;
+}
+
+/* Eplore now description */
+.explore-description {
+  width: 249px;
+  height: 36px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
