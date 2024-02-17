@@ -5,11 +5,7 @@ function AboutUs() {
   return (
     <>
       <div className="aboutUs_div">
-        <img
-          src="../../public/img/aboutUS1440.png"
-          alt="#"
-          className="aboutUsImg"
-        />
+        <img src="aboutUS1440.png" alt="#" className="aboutUsImg" />
         <div>
           <h1 className="aboutUsTitle">About US</h1>
           <p className="aboutUsDesc">

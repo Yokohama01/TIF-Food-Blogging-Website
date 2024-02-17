@@ -4,7 +4,7 @@ function Footer() {
     <>
       <footer>
         <div className="imageDiv">
-          <img src="../../public/img/logo.png" alt="" />
+          <img src="logo.png" alt="" />
         </div>
         <div className="contactUs">
           <h3>Contact Us</h3>

@@ -28,38 +28,38 @@ function Slide() {
         >
           <SwiperSlide>
             <SlideComponent
-              image="../../public/img/grilled-tomatoes-1-846x846 3.png"
+              image="grilled-tomatoes-1-846x846 3.png"
               text="Grilled Tomatoes at Home"
             />
           </SwiperSlide>
           <SwiperSlide>
             <SlideComponent
-              image="../../public/img/grilled-tomatoes-1-846x846 4.png"
-              text="Grilled Tomatoes at Home"
+              image="grilled-tomatoes-1-846x846 4.png"
+              text="Snacks for Travel"
             />
           </SwiperSlide>
           <SwiperSlide>
             <SlideComponent
-              image="../../public/img/grilled-tomatoes-1-846x846 5.png"
-              text="Grilled Tomatoes at Home"
+              image="grilled-tomatoes-1-846x846 5.png"
+              text="Post-Workout Recepie"
             />
           </SwiperSlide>
           <SwiperSlide>
             <SlideComponent
-              image="../../public/img/grilled-tomatoes-1-846x846 6.png"
-              text="Grilled Tomatoes at Home"
+              image="grilled-tomatoes-1-846x846 6.png"
+              text="How to Grill Corn"
             />
           </SwiperSlide>
           <SwiperSlide>
             <SlideComponent
-              image="../../public/img/grilled-tomatoes-1-846x846 7.png"
-              text="Grilled Tomatoes at Home"
+              image="grilled-tomatoes-1-846x846 7.png"
+              text="Crunchwrap Supreme"
             />
           </SwiperSlide>
           <SwiperSlide>
             <SlideComponent
-              image="../../public/img/grilled-tomatoes-1-846x846 8.png"
-              text="Grilled Tomatoes at Home"
+              image="grilled-tomatoes-1-846x846 8.png"
+              text="Broccoli Cheese Soup"
             />
           </SwiperSlide>
         </Swiper>
