@@ -1,13 +1,12 @@
 import { Box } from "@chakra-ui/react";
 
-const Button = ({ title, width, height }) => {
+const Button = ({ title, width, height, wm, hm }) => {
   return (
     <Box
-      w={width}
-      h={height}
+      width={{ lg: width, sm: wm }}
+      height={{ lg: height, sm: hm }}
       as="button"
-      fontSize="20px"
-      p="12px, 30px, 12px, 30px"
+      p="10px"
       borderRadius="30px"
       color="white"
       bg="#E23744"
@@ -15,7 +14,7 @@ const Button = ({ title, width, height }) => {
       _hover={{ bg: "blue.600" }}
       _active={{ bg: "blue.700" }}
     >
-      {title}
+      <span className="bt-title">{title}</span>
     </Box>
   );
 };

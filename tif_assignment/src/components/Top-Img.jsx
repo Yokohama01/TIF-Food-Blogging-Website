@@ -19,7 +19,13 @@ function Top_Img() {
             Naturally made Healthcare Products for the <br />
             better care & support of your body.
           </p>
-          <Button title="Explore Now!" width="190px" height="63px" />
+          <Button
+            title="Explore Now!"
+            width="190px"
+            height="63px"
+            wm="120px"
+            hm="40px"
+          />
         </div>
         <div className="imageSection">
           <Box position="relative" w="100%" h="100%">
@@ -37,24 +43,7 @@ function Top_Img() {
                 w="100%"
                 h="100%"
               />
-              <a
-                href="#"
-                style={{
-                  textDecoration: "none",
-                  color: "white",
-                  border: "2px solid white",
-                  padding: "18px",
-                  borderRadius: "30px",
-                  position: "absolute",
-                  top: "18px",
-                  right: "10px",
-                  zIndex: "2",
-                  fontSize: "16px",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
+              <a href="#" className="get-in-touch-link">
                 Get in touch
               </a>
             </Box>
