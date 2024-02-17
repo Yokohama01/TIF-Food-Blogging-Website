@@ -1,15 +1,8 @@
-import React, { useState } from "react";
 import SlideComponent from "./SlideComponent";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "../Css/SlideDiv.css";
-
 function Slide() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  const handleSlideChange = (swiper) => {
-    setCurrentSlide(swiper.realIndex);
-  };
   return (
     <>
       <div className="slideDiv">
@@ -59,21 +52,6 @@ function Slide() {
             />
           </SwiperSlide>
         </Swiper>
-        <div>
-        <p>Current Slide: {currentSlide + 1}</p>
-        <button
-          onClick={() => setCurrentSlide((prevSlide) => prevSlide - 1)}
-          disabled={currentSlide === 0}
-        >
-          Previous
-        </button>
-        <button
-          onClick={() => setCurrentSlide((prevSlide) => prevSlide + 1)}
-          disabled={currentSlide === 5} {/* Assuming 5 is the last slide index */}
-        >
-          Next
-        </button>
-      </div>
       </div>
     </>
   );

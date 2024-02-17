@@ -1,21 +1,18 @@
 .slideDiv {
   width: 375px;
-  height: 550px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 1rem;
-  position: relative;
-  top: 2rem;
+  gap: 1.5rem;
 }
 .slideDiv > h1 {
-  font-family: "Open Sans";
-  font-size: 25px;
+  font-size: 35px;
   color: #0e2368;
-  font-weight: 900;
+  font-weight: 700;
 }
 .hello {
   width: 800px;
-  margin-left: 40px;
+  margin-left: 55px;
 }
